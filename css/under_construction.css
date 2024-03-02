@@ -1,0 +1,90 @@
+@keyframes test{
+    from {right: 0}
+    to {right: 218px}
+}
+
+#construction-warning{
+    background-color: #000;
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.warning-ticker{
+    position: absolute;
+    background-color: gold;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.ticker-body{
+    position: relative;
+    display:flex;
+    width: 100%;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#ticker-top{
+    top: 0%;
+    transform: translate(-150px, -10px) rotate(-15deg);
+}
+
+#ticker-top > .ticker-body{
+    animation-direction: reverse;
+}
+
+#ticker-bot{
+    bottom: 0%;
+    transform: translate(150px, 10px) rotate(-15deg);
+}
+
+.ticker-unit{
+    display: flex;
+    align-items: center;
+}
+
+.ticker-stripes{
+    display: flex;
+    /* Weird half-pixel value to vertically align with the text */
+    margin: 0 12px 4.5px;   
+}
+
+.ticker-text{
+    font-size: 48px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.ticker-box{
+    background-color: #000000bb;
+    height: 34px;
+    width: 12px;
+    display: inline-block;
+    transform: skewX(-30deg);
+    margin: 0 4px;
+}
+
+#warning-content{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+#warning-content > *{
+    text-align: center;
+}
+
+#warning-header{
+    font-size: 40px;
+}
