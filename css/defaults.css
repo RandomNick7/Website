@@ -3,19 +3,136 @@
     src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Overpass';
+    src: url(../fonts/Overpass.ttf);
+}
+
+@font-face {
+    font-family: '3270';
+    src: url(../fonts/3270NerdFontMono-Regular.ttf);
+}
+
+:root{
+    --darkgrau: rgb(11, 11, 15);
+    --eigengrau: rgb(22, 22, 29);
+    --lightgrau: rgb(75, 75, 90);
+    --cerulean-blue: rgb(42, 82, 190);
+    --dark-royal: rgb(0, 32, 114);
+    --off-white: rgb(245, 247, 250);
+}
+
+*{
+    box-sizing: border-box;
+}
+
 *::selection{
     color:black;
-    background-color: rgb(42,82,190);
+    background-color: var(--cerulean-blue);
 }
 
 body{
     width: 100%;
     height: 100vh;
-    overflow:hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
-    color: white;
-    background-color: rgb(11, 11, 15);
+    color: var(--off-white);
+    background-color: var(--darkgrau);
 }
 
+
+nav {
+    display: flex;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, calc(50% + 225px) 75%, calc(50% + 209px) 100%, calc(50% - 209px) 100%, calc(50% - 225px) 75%, 260px 75%, calc(260px - 16px) 100%, 0% 100%);
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    background-color: var(--eigengrau);
+    font-size: 24px;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+nav a{
+    color: var(--off-white);
+    text-decoration: none;
+    padding: 12px;
+    
+    background-image: linear-gradient(30deg,
+        var(--eigengrau) 50%,
+        var(--cerulean-blue) 50%
+    );
+    background-size: 300% 100%;
+    background-position: top left;
+    transition: background-position 0.25s linear;
+}
+
+nav a:hover{
+    background-position: bottom right;
+}
+
+
+#main-link{
+    width: 260px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    background-image: linear-gradient(-30deg,
+        var(--eigengrau) 50%,
+        var(--cerulean-blue) 50%
+    );
+    background-position: top right;
+}
+
+#main-link:hover{
+    background-position: bottom left;
+}
+
+#main-link > span{
+    color: var(--lightgrau);
+    transition: color 0.3s linear;
+}
+
+#main-link:hover > span{
+    color: var(--off-white);
+}
+
+#nav-clock-wrapper{
+    height:100%;
+    display: flex;
+}
+
+#nav-clock{
+    position: relative;
+    height: 80%;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 64px;
+    align-self: center;
+    pointer-events: none;
+}
+
+#nav-clock-line{
+    position: absolute;
+    stroke: var(--lightgrau);
+}
+
+#nav-time{
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font: bold 18px '3270', monospace;
+    white-space: nowrap;
+}
+
+#other-links{
+    display: flex;
+    height: 75%;
+    font-size: 18px;
+}
