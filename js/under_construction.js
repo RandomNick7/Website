@@ -3,10 +3,11 @@ function extendStrips(){
     // For both strips, copy their contents until reaching their width
     Array.from(strip).forEach(elem => {
         let stripUnit = elem.children[0];
-        let repeatCount = Math.ceil(elem.offsetWidth / stripUnit.offsetWidth)+1;
+        let repeatCount = Math.floor(elem.offsetWidth / stripUnit.offsetWidth)+2;
+        console.log(repeatCount);
         elem.innerHTML = stripUnit.outerHTML.repeat(repeatCount);
     })
 }
 
-window.onload = extendStrips;
-window.onresize = extendStrips;
+window.addEventListener("load", () => {extendStrips()});
+window.addEventListener("resize", () => {extendStrips()});

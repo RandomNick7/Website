@@ -8,12 +8,14 @@
     flex-grow: 1;
     position: relative;
     overflow: hidden;
+    margin-top: -16px;
+    z-index: -2;
 }
 
 .warning-ticker{
     position: absolute;
     background-color: gold;
-    width: 100%;
+    width: 150%;
     overflow: hidden;
     user-select: none;
 }
@@ -30,7 +32,7 @@
 
 #ticker-top{
     top: 0%;
-    transform: translate(-150px, -10px) rotate(-15deg);
+    transform: translate(-10vw, 5vh) rotate(-15deg);
 }
 
 #ticker-top > .ticker-body{
@@ -39,7 +41,7 @@
 
 #ticker-bot{
     bottom: 0%;
-    transform: translate(150px, 10px) rotate(-15deg);
+    transform: translate(-10vw, -10vh) rotate(-15deg);
 }
 
 .ticker-unit{
@@ -78,7 +80,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 #warning-content > *{
@@ -86,5 +88,5 @@
 }
 
 #warning-header{
-    font-size: 40px;
+    font-size: 48px;
 }
