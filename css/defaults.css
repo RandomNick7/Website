@@ -13,12 +13,18 @@
     src: url(../fonts/3270NerdFontMono-Regular.ttf);
 }
 
+@keyframes footer-scroll{
+    from {transform: translate(0, 0)}
+    to {transform: translate(-207px, 0)}
+}
+
 :root{
     --darkgrau: rgb(11, 11, 15);
     --eigengrau: rgb(22, 22, 29);
     --lightgrau: rgb(75, 75, 90);
+    --midnight-blue: rgb(26, 26, 61);
     --cerulean-blue: rgb(42, 82, 190);
-    --dark-royal: rgb(0, 32, 114);
+    --electric-blue: rgb(125, 249, 255);
     --off-white: rgb(245, 247, 250);
 }
 
@@ -34,7 +40,6 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -44,29 +49,33 @@ body{
 
 
 nav {
-    position: relative;
+    position: sticky;
+    top: 0;
+    flex: 0 0 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0;
-    font-size: 24px;
-    font-family: 'Overpass', sans-serif;
+    font: 24px 'Overpass', sans-serif;
 }
 
 nav::before{
     content: "";
     display: block;
     position: absolute;
-    background-color: var(--eigengrau);
+    background-color: var(--midnight-blue);
     width: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: 5;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, calc(50% + 125px) 75%, calc(50% + 109px) 100%, calc(50% - 109px) 100%, calc(50% - 125px) 75%, 260px 75%, calc(260px - 16px) 100%, 0% 100%);
 }
 
+nav > *{
+    z-index: 10;
+}
 
 nav a{
     color: var(--off-white);
@@ -74,7 +83,7 @@ nav a{
     padding: 12px;
     
     background-image: linear-gradient(30deg,
-        var(--eigengrau) 50%,
+        var(--midnight-blue) 50%,
         var(--cerulean-blue) 50%
     );
     background-size: 300% 100%;
@@ -92,7 +101,7 @@ nav a:hover{
     font-weight: bold;
 
     background-image: linear-gradient(-30deg,
-        var(--eigengrau) 50%,
+        var(--midnight-blue) 50%,
         var(--cerulean-blue) 50%
     );
     background-position: top right;
@@ -132,7 +141,7 @@ nav a:hover{
 
 #nav-clock-line{
     position: absolute;
-    stroke: var(--lightgrau);
+    stroke: var(--cerulean-blue);
 }
 
 #nav-time{
@@ -158,6 +167,26 @@ nav a:hover{
 #nav-expand > img{
     height: 28px;
     width: 28px;
+}
+
+footer{
+    padding: 6px 0 2px;
+    width: 100%;
+    margin-top: auto;
+    background-color: var(--eigengrau);
+    overflow: hidden;
+    color: var(--lightgrau);
+    flex-shrink: 0;
+}
+
+#footer-ticker{
+    animation: footer-scroll 2s linear infinite;
+}
+
+#footer-ticker > span{
+    padding: 0 8px;
+    white-space: nowrap;
+    font: 16px 'Overpass', sans-serif;
 }
 
 @media screen and (max-width: 860px){
