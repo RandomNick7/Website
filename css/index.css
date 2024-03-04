@@ -26,6 +26,7 @@ body > section{
     font-size: 96px;
     text-align: center;
     color: var(--electric-blue);
+    pointer-events: none;
 }
 
 #about-self{
@@ -81,6 +82,7 @@ body > section{
     font-size: 32px;
     margin: 16px 0;
     text-align: center;
+    cursor: default;
 }
 
 #prog-langs{
@@ -95,6 +97,7 @@ body > section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    user-select: none;
 }
 
 #prog-list > div{
@@ -229,6 +232,7 @@ body > section{
 #contacts > div{
     display: flex;
     align-items: center;
+    cursor: default;
 }
 
 #contacts a{
