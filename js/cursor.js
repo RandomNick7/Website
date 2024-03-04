@@ -10,7 +10,7 @@ function getMouseLocation(e){
     isCursorMoving = true;
     cursorPos.x = e.pageX;
     cursorPos.y = e.pageY;
-    if((e.target)["cursor"] != undefined){
+    if(e.target != document){
         cursorState = window.getComputedStyle(e.target)["cursor"];
     }else{
         cursorState = "default";

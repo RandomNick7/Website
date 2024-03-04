@@ -243,3 +243,13 @@ footer{
         transition: transform 0.3s;
     }
 }
+
+@media screen and (max-width: 350px){
+    #main-link{
+        width: 150px;
+    }
+
+    #main-link > span{
+        display: none;
+    }
+}

@@ -298,9 +298,23 @@ body > section{
     cursor: default;
 }
 
+#mascot-fake-spam{
+    padding: 20px 2px 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--darkgrau);
+    font: bold 24px '3270';
+    cursor: default;
+}
+
 @media screen and (max-width: 860px) {
     #hero-text{
-        font-size: 14vw;
+        font-size: 11vw;
     }
 
     #about-header{
@@ -333,4 +347,10 @@ body > section{
         display: inline-block;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    #hero-text{
+        font-size: 14vw;
+    }
 }
