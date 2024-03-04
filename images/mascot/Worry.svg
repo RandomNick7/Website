@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="37.5 155 200 203.8">
+    <defs>
+        <style>
+            .cls-17,.cls-19,.cls-6{fill:#fff;}
+            .cls-4{stroke:#000;stroke-width:4px;}
+            .cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21,.cls-4{stroke-miterlimit:10;}
+            .cls-2{fill:#15d4ff;}
+            .cls-16,.cls-18,.cls-20,.cls-21{fill:none;}
+            .cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21{stroke:#15d4ff;}
+            .cls-16,.cls-18,.cls-20{stroke-linecap:round;}
+            .cls-16,.cls-17{stroke-width:3px;}
+            .cls-18,.cls-19{stroke-width:1.5px;}
+        </style>
+    </defs>
+    <g id="Vrstva_6" data-name="Vrstva 6">
+        <line class="cls-16" x1="202.91" y1="196.36" x2="209.37" y2="196.36"/>
+        <ellipse class="cls-17" cx="166.56" cy="216.09" rx="24.27" ry="21.49"/>
+        <circle class="cls-2" cx="173.02" cy="213.84" r="13.14"/>
+        <circle class="cls-6" cx="178.63" cy="205.17" r="4.48"/>
+        <ellipse class="cls-17" cx="230.42" cy="216.09" rx="24.27" ry="21.49"/>
+        <circle class="cls-2" cx="236.78" cy="213.84" r="13.14"/>
+        <circle class="cls-6" cx="242.96" cy="205.17" r="4.48"/>
+        <path class="cls-18" d="M305.2,320.23c0,8.85,13.27,8.85,13.27,0,0,8.85,13.28,8.85,13.28,0" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M320.74,321.05l2.17-2.51a3,3,0,0,0-2.27-5H316.3a3,3,0,0,0-2.26,5l2.17,2.51A3,3,0,0,0,320.74,321.05Z" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M286.56,322.76c-2.81-.64-15.07-.9-22,5.36" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M286.56,325.28c-2.88.11-14.79,3-19.84,10.83" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M286.56,328.28c-2.75.85-13.48,6.79-16.3,15.66" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M350.08,322.76c2.8-.64,15.06-.9,21.95,5.36" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M350.08,325.28c2.87.11,14.78,3,19.84,10.83" transform="translate(-120 -81.24)"/>
+        <path class="cls-20" d="M350.08,328.28c2.75.85,13.47,6.79,16.29,15.66" transform="translate(-120 -81.24)"/>
+        <line class="cls-16" x1="187.6" y1="196.36" x2="194.06" y2="196.36"/>
+        <path class="cls-21" d="M246.19,316.94c0,5.41,5.36,5.41,5.36,0" transform="translate(-120 -81.24)"/>
+        <path class="cls-21" d="M374.69,339c0,5.42,5.36,5.42,5.36,0" transform="translate(-120 -81.24)"/>
+        <path class="cls-21" d="M255,269.49c0,5.42,5.36,5.42,5.36,0" transform="translate(-120 -81.24)"/>
+    </g>
+</svg>

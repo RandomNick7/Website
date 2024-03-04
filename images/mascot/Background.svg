@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.63 276.76">
+    <defs>
+        <style>
+            .cls-1,.cls-6{fill:#fff;}
+            .cls-1,.cls-3,.cls-4{stroke:#000;stroke-width:4px;}
+            .cls-1,.cls-3,.cls-4,.cls-5{stroke-miterlimit:10;}
+            .cls-2{fill:#15d4ff;}
+            .cls-3{fill:#d8d8d8;}
+            .cls-4{fill:#a52d2d;}
+            .cls-5{fill:none;}
+            .cls-5{stroke:#fff;}
+            .cls-5{stroke-width:2px;}
+        </style>
+    </defs>
+    <g id="Vrstva_4" data-name="Vrstva 4">
+        <path class="cls-1" d="M370.57,206c21-34.06,19.25-96.51,3.43-122.32,0,0-101.34,38.42-89,106.05Z" transform="translate(-120 -81.24)"/>
+        <path class="cls-2" d="M367.11,198.4c15.73-25.49,14.41-72.22,2.57-91.54,0,0-75.82,28.76-66.56,79.36Z" transform="translate(-120 -81.24)"/>
+        <path class="cls-1" d="M144.36,206c-21-34.06-19.26-96.51-3.43-122.32,0,0,101.33,38.42,89,106.05Z" transform="translate(-120 -81.24)"/>
+        <path class="cls-2" d="M147.81,198.4c-15.73-25.49-14.41-72.22-2.57-91.54,0,0,75.83,28.76,66.57,79.36Z" transform="translate(-120 -81.24)"/>
+    </g>
+    <g id="Vrstva_2" data-name="Vrstva 2">
+        <rect class="cls-1" x="2" y="73.76" width="267.63" height="201" rx="12"/>
+        <path class="cls-3" d="M14,73.76H257.63a12,12,0,0,1,12,12v13a0,0,0,0,1,0,0H2a0,0,0,0,1,0,0v-13a12,12,0,0,1,12-12Z"/>
+        <path class="cls-4" d="M241.68,73.76h14.93a13,13,0,0,1,13,13v12a0,0,0,0,1,0,0H241.68a0,0,0,0,1,0,0v-25A0,0,0,0,1,241.68,73.76Z"/>
+        <line class="cls-5" x1="247.69" y1="79.26" x2="261.69" y2="93.26"/><line class="cls-5" x1="261.69" y1="79.26" x2="247.69" y2="93.26"/>
+        <rect class="cls-6" x="60.93" y="78.47" width="150.13" height="15.57" rx="7.79"/>
+    </g>
+</svg>

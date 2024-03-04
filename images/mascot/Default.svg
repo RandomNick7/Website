@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="37.5 65 200 203.8">
+    <defs>
+        <style>
+            .cls-16,.cls-18,.cls-6{fill:#fff;}
+            .cls-4{stroke:#000;stroke-width:4px;}
+            .cls-16,.cls-17,.cls-18,.cls-19,.cls-20{stroke-miterlimit:10;}
+            .cls-2{fill:#15d4ff;}
+            .cls-17,.cls-19,.cls-20{fill:none;}
+            .cls-19{stroke-width:2px;}
+            .cls-16,.cls-17,.cls-18,.cls-19,.cls-20{stroke:#15d4ff;}
+            .cls-16,.cls-20{stroke-width:6px;}
+            .cls-17,.cls-19,.cls-20{stroke-linecap:round;}
+            .cls-17,.cls-18{stroke-width:3px;}
+        </style>
+    </defs>
+    <g id="Vrstva_3" data-name="Vrstva 3">
+        <ellipse class="cls-16" cx="73.66" cy="162.93" rx="48.55" ry="42.98"/>
+        <circle class="cls-2" cx="82.34" cy="166.76" r="29.96"/>
+        <circle class="cls-6" cx="95.14" cy="147" r="10.2"/>
+        <ellipse class="cls-16" cx="201.38" cy="162.93" rx="48.55" ry="42.98"/>
+        <circle class="cls-2" cx="192.69" cy="166.76" r="29.96"/>
+        <circle class="cls-6" cx="206.79" cy="147" r="10.2"/>
+        <path class="cls-17" d="M230.93,290c0,17.7,26.56,17.7,26.56,0,0,17.7,26.55,17.7,26.55,0" transform="translate(-120 -81.24)"/>
+        <path class="cls-18" d="M262,291.6l4.34-5a6,6,0,0,0-4.53-9.93h-8.68a6,6,0,0,0-4.53,9.93l4.33,5A6,6,0,0,0,262,291.6Z" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M193.66,295c-5.62-1.28-30.13-1.79-43.92,10.72" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M193.66,300.08c-5.76.21-29.58,6-39.69,21.65" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M193.66,306.06c-5.5,1.72-26.95,13.59-32.59,31.33" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M320.69,295c5.62-1.28,30.13-1.79,43.92,10.72" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M320.69,300.08c5.76.21,29.58,6,39.69,21.65" transform="translate(-120 -81.24)"/>
+        <path class="cls-19" d="M320.69,306.06c5.5,1.72,27,13.59,32.59,31.33" transform="translate(-120 -81.24)"/>
+        <line class="cls-20" x1="100.67" y1="111.54" x2="113.59" y2="111.54"/>
+        <line class="cls-20" x1="163.15" y1="111.08" x2="176.07" y2="111.08"/>
+    </g>
+</svg>
