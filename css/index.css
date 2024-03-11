@@ -1,38 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @keyframes border-move{
     from {background-position: 50% 0}
     to {background-position: calc(50% + 45px) 0}
 }
 
 body > section{
-    width: 100%;
     font-family: 'Overpass', sans-serif;
-    margin: 24px 0;
 }
 
 #hero-section{
-    height: 45vh;
-    width: 100%;
-    flex-shrink: 0;
-    margin-top: -16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url('../images/hexgrid.svg');
 }
 
-#hero-text{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 96px;
-    text-align: center;
-    color: var(--electric-blue);
-    pointer-events: none;
-}
-
 #about-self{
-    position: relative;
     width: 80%;
-    margin-top: 20px;
+    position: relative;
+    margin: 20px 0 16px;
     align-self: center;
     z-index: -5;
 }
